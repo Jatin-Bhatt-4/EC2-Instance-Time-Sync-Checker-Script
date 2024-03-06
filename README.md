@@ -30,8 +30,8 @@ This bash script checks the time synchronization of running Linux instances on A
 2. Remove the server pool lines from the above conf files.
 3. Add the below lines in place of the removed server pool file-
    
-   **server 169.254.169.123 prefer iburst minpoll 4 maxpoll 4
-   pool time.aws.com iburst**
+   **server 169.254.169.123 prefer iburst minpoll 4 maxpoll 4**
+   **pool time.aws.com iburst**
 5. Restart ntpd/chrony service.
 
 ## Author
